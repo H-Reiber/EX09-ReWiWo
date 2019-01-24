@@ -34,7 +34,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 checkstyle {
-    poolVersion "8.13"
     configFile = file ('checkstyle.xml')
 }
 
